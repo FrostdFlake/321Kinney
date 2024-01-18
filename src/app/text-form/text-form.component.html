@@ -1,0 +1,12 @@
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" [(ngModel)]="name" />
+
+  <label for="age">Age:</label>
+  <input type="number" id="age" [(ngModel)]="age" />
+
+  <label for="color">Favorite Color:</label>
+  <input type="text" id="color" [(ngModel)]="favoriteColor" />
+
+  <button (click)="addColor()">Add Color</button>
+</form>
